@@ -1,0 +1,109 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  .clear {
+    clear:left; 
+  }
+  
+  .overlay {
+    display:none;
+  }
+
+  .lesson-icon img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 120px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 8px;
+    border:1px solid black;
+  }
+
+  footer {
+    text-align: center;
+    font-size:15px;
+  }
+
+  .lesson-tag p {
+    display: block;
+    color: white;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+    font-size:15px;
+  }
+
+  
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .lesson-tag p {
+    display: block;
+    color: white;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  .overlay {
+    display:none;
+  }
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    padding: 21px 0;
+    display: block;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .lesson-icon img {
+    width: 300px;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 8px;
+    border:1px solid black;
+    text-align: center;
+    margin-left:40px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
