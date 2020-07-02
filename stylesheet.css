@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ubuntu;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(undraw_social_distancing_2g0u.png);
+  /* background-image: url("https://assets4.lottiefiles.com/private_files/lf30_aGWCIX.json"); */
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #722705;
+}
+
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  height: 175px;
+  opacity: 0.7;
+}
+
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  color: #722705;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #e95420;
+  /* background-color: tomato; */
+  /* //background-color: rgba(34, 49, 52, 0.9); */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  margin-left: 10px;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-color: lightsalmon;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:rgb(245, 126, 83);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: black;
+  /* color: #5f5d60; */
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+/* test dulu */
+.lesson-icon {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e09508;
+}
+
+.lesson-icon:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-style:inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.lesson-icon img {
+  width: 250px;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 8px;
+  border:2px solid black;
+}
+
+.lesson-tag p {
+  display:none;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #2926269c;
+  /* color: #b3aeb5; */
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f0b410;
+}
+
+.message:hover {
+  background-color: #f0b410;
+  color: white;
+  position:relative;
+  cursor: pointer;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p {
+  color: #f7f7f7;
+  font-size: 15px;
+}
+
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #722705;
+
+}
+
+.footer-tengah {
+  width: 100%;
+  font-size: 12px;
+  color: #5a6167;
+  text-align: center;
+  background: #1e1e1e;
+  clear: both;
+  padding: 2px;
+}
+
+.footer-right h3 {
+  float:right;
+
+}
+.fa-ul {
+  color: #f7f7f7;
+}
+.fa-ul li {
+  margin-bottom: 10px;
+}
+
+.fa-facebook-square:hover {
+  color: rgb(11, 132, 237);
+  cursor: pointer;
+}
+
+.fa-twitter-square:hover {
+  color: rgb(29, 161, 243);
+  cursor: pointer;
+}
+
+.fa-instagram:hover {
+  color: rgb(146, 60, 183);
+  cursor: pointer;
+}
+
+.footer-icon a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
